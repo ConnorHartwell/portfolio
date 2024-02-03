@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Bitterbrush';
+    src:url("/public/Bitterbrush DEMO.otf") format("opentype");
+  }
+
+.navbar {
+    height:50px;
+    position:fixed;
+    right:0px;
+}
+
+.navbar-element {
+    padding: 10px;
+    text-decoration: none;
+    color: grey;
+    font-size: 2em;
+    font-family: 'Bitterbrush';
+}
+
+.navbar-element:hover {
+    color:rgb(148, 21, 21);
+}
+  

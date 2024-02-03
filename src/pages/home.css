@@ -1,0 +1,58 @@
+@font-face {
+  font-family: 'Bitterbrush';
+  src:url("/public/Bitterbrush DEMO.otf") format("opentype");
+}
+
+.container {
+  text-align: center;
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+  height:100%;
+}
+
+.page-layout {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.external-links {
+  flex: 1;
+  margin-right: auto;
+  font-family: "Bitterbrush";
+}
+
+.link {
+  text-decoration: none;
+  color: grey;
+  font-size: 2em;
+}
+
+.link:hover {
+  color:rgb(148, 21, 21);
+}
+
+.title-section {
+  flex:1;
+  height:auto;
+  margin-left: auto; 
+  font-family: "Bitterbrush";
+  font-size: 2em;
+  color: grey;
+  text-align: right;
+  margin-right: 2em;
+}
+.photo-container {
+ height:max-content;
+}
+
+.photo {
+  flex: 1;
+  border-radius:50%;
+  width: 20vw;
+  height:20vw;
+  object-fit: cover;
+  pointer-events: none;
+  border: 5px solid black;
+}
