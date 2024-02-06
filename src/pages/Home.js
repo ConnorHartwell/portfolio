@@ -1,4 +1,5 @@
-import './home.css';
+import './Home.css';
+import slideTransition from '../hooks/slide.js';
 
 function Home(props) {
     return (
@@ -40,4 +41,4 @@ function Home(props) {
     );
 }
 
-export default Home;
+export default slideTransition(Home);

@@ -1,4 +1,39 @@
+@font-face {
+    font-family: 'Bitterbrush';
+    src:url("/public/Bitterbrush DEMO.otf") format("opentype");
+  }
+
+@font-face {
+    font-family: 'Geranium';
+    src:url("/public/Geranium.otf") format("opentype");
+}
+  
+.title {
+    font-size: 3rem;
+}
+
 .app-container {
+    font-family: 'Bitterbrush';
     background-color:rgb(36, 40, 33);
     height:100vh;
+}
+
+.slide-in {
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100vh;
+    background: black;
+    transform-origin: left;
+}
+
+.slide-out {
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100vh;
+    background: black;
+    transform-origin: right;
 }

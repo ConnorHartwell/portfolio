@@ -1,5 +1,7 @@
 import React from 'react';
 import './Blog.css';
+import slideTransition from '../hooks/slide.js';
+
 
 function Blog(props) {
     return (
@@ -9,4 +11,4 @@ function Blog(props) {
     );
 }
 
-export default Blog;
+export default slideTransition(Blog);

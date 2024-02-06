@@ -1,3 +1,39 @@
 .container {
     height:100%;
+    color: white;
+    font-family: 'Geranium';
+}
+
+.title {
+    font-size: 3rem;
+}
+
+.flex-container {
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+form {
+    margin: 20px;
+    padding: 20px;
+    border: 2px dashed white;
+    border-radius: 10px;
+}
+
+.question {
+    font-size: 2rem;
+}
+
+.image {
+ flex: 1;
+}
+.image > img {
+    height: 60vh;
+    object-fit: contain;
+}
+
+.about-text {
+    flex: 1;
 }
